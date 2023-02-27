@@ -1,0 +1,175 @@
+body{
+  max-width: 1440px;
+  max-height: 2201px;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+
+.top{
+  width: auto;
+  height: 78px;
+  margin-top: 47px;
+  margin-bottom: 43px;
+}
+
+.left{
+  margin-left: 250px;
+  padding-top: 18px;
+  height: 37px;
+  width: 37px;
+}
+
+.right{
+  padding-top: 18px;
+  position: relative;
+  left: 830px;
+  padding-right: 21px;
+  height: 25px;
+  width: 25px;
+  
+}
+
+h1{
+  color: #8A6D2F;
+  padding-top: 102px;
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 400;
+}
+
+h2{
+  color: #8A6D2F;
+  font-size: 43px;
+  line-height: 54px;
+  font-weight: 400;
+}
+
+.topbody{
+  background-color:  #FAC960;
+  text-align: center;
+  height: 421px;
+  width: auto;
+}
+
+.emailvalue{
+  width: 560px;
+  height: 54px;
+  font-size: 30px;
+  line-height: 54px;
+  color: #999999;
+}
+
+.buttoninp{
+  padding-left: 6px;
+  height: 56px;
+  width: 240px;
+  border: none;
+  font-size: 30px;
+  line-height: 54px;
+  text-align: center;
+  color: #fff;
+  background: #A8863D;
+}
+
+.unspace{
+  text-align: center;
+  background: #F2F2F2;
+  height: 438px;
+  width: auto;
+}
+
+h3{
+  font-size: 37px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.56);
+  padding-top: 77px;
+  margin: 0%;
+  font-weight: 400;
+}
+
+p{
+  font-size: 23px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 32px 311px;
+  margin: 0%;
+  font-weight: 400;
+}
+
+.icon{
+  padding-top: 24px;
+  padding-bottom: 81px;
+  width: 186px;
+  height: 96px;
+}
+
+.mobarea{
+  text-align: center;
+  background: #fff;
+  height: 625px;
+  width: auto;
+}
+
+.phoneicon{
+  width: 190px;
+  height: 355px;
+  padding-top: 32px;
+}
+
+.referarea{
+  margin-top: 22px;
+  text-align: center;
+  background-color:  #FAC960;
+  height: 313px;
+}
+
+.referarea h3{
+  color: #8A6D2F;
+}
+
+.referarea p{
+  font-size: 22px;
+}
+
+.referarea input{
+  width: 61px;
+  height: 22px;
+  font-size: 17px;
+  line-height: 22px;
+  color: #999999;
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 107px;
+}
+
+.bot{
+  height: 240px;
+  text-align: center;
+  background-color: #F2F2F2;
+  border-radius: 0px;
+}
+
+.botlogo{
+  margin-top: 81px;
+  margin-bottom: 24px;
+  height: 37px;
+  width: 37px;
+}
+
+.boticonb{
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 17px;
+  height: 17px;
+}
+
+.boticona{
+  width: 18px;
+  height: 15px;
+}
+
+.boticonc{
+  width: 17px;
+  height: 15px;
+}
