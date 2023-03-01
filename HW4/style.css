@@ -1,7 +1,6 @@
 body{
   background: rgba(28, 82, 221, 0.56);
   font-family: 'Roboto', sans-serif;
-  overflow-y: hidden;
 }
 
 
@@ -85,9 +84,7 @@ h2{
 }
 
 .banner{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  float: right;
   position: relative;
   bottom: 540px;
   margin-right: 25px;
