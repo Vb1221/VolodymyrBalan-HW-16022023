@@ -1,16 +1,16 @@
 body{
-  max-width: 1440px;
-  max-height: 2201px;
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
-  margin: auto;
+  box-sizing: border-box;
 }
 
 .top{
-  width: auto;
-  height: 78px;
   margin-top: 47px;
   margin-bottom: 43px;
+}
+
+a{
+  text-decoration: none;
 }
 
 .left{
@@ -48,8 +48,6 @@ h2{
 .topbody{
   background-color:  #FAC960;
   text-align: center;
-  height: 421px;
-  width: auto;
 }
 
 .emailvalue{
@@ -58,6 +56,7 @@ h2{
   font-size: 30px;
   line-height: 54px;
   color: #999999;
+  margin-bottom: 115px;
 }
 
 .buttoninp{
@@ -75,8 +74,6 @@ h2{
 .unspace{
   text-align: center;
   background: #F2F2F2;
-  height: 438px;
-  width: auto;
 }
 
 h3{
@@ -107,8 +104,7 @@ p{
 .mobarea{
   text-align: center;
   background: #fff;
-  height: 625px;
-  width: auto;
+  
 }
 
 .phoneicon{
@@ -121,7 +117,7 @@ p{
   margin-top: 22px;
   text-align: center;
   background-color:  #FAC960;
-  height: 313px;
+  
 }
 
 .referarea h3{
@@ -144,10 +140,11 @@ p{
 }
 
 .bot{
-  height: 240px;
+  
   text-align: center;
   background-color: #F2F2F2;
   border-radius: 0px;
+  padding-bottom: 80px;
 }
 
 .botlogo{
