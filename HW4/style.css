@@ -1,0 +1,99 @@
+body{
+  background: rgba(28, 82, 221, 0.56);
+  font-family: 'Roboto', sans-serif;
+  overflow-y: hidden;
+}
+
+
+.logoblock{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 100px;
+  padding-top: 58px;
+  width: 319px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 45px;
+  position: relative;
+  bottom: 52px;  /*!!! */
+}
+
+a{
+  text-decoration: none;
+  color: #EBEBEB;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  padding-left: 60px;
+}
+
+.active{
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.btn{
+  background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
+  border-radius: 13px;
+  width: 164px;
+  height: 61px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #E5E5E5;
+  border: none;
+  margin-left: 40px;
+}
+
+.titlearea{
+  padding-left: 100px;
+}
+
+h1{
+  margin-top: 220px;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+
+h2{
+  
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #E5E5E5;
+}
+
+.botbtn{
+  background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
+  border-radius: 13px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #E5E5E5;
+  border: none;
+  width: 277px;
+  height: 85px;
+  margin-top: 35px;
+}
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 540px;
+  margin-right: 25px;
+}
+
+.banner img{
+  width: 830px;
+  height: 660px;
+}
