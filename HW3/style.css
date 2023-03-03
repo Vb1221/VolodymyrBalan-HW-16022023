@@ -1,34 +1,38 @@
 body{
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
 }
+
+
 
 .top{
   margin-top: 47px;
   margin-bottom: 43px;
+  margin-right: 21%;
 }
+
 
 a{
   text-decoration: none;
 }
 
 .left{
-  margin-left: 250px;
-  padding-top: 18px;
+  margin-left: 21%;
+  margin-top: 18px;
   height: 37px;
   width: 37px;
 }
 
 .right{
-  padding-top: 18px;
-  position: relative;
-  left: 830px;
-  padding-right: 21px;
+  margin-top: 18px;
+  float: right;
+  margin-left: 21px;
   height: 25px;
   width: 25px;
-  
 }
+
+
+  
 
 h1{
   color: #8A6D2F;
