@@ -1,21 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   background: rgba(28, 82, 221, 0.56);
   font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
 }
 
+.clearfix{
+  margin-left: 5%;
+  margin-right: 3%;
+}
 
 .logoblock{
-  float: left;
-  padding-left: 5%;
+  float: left;   
   padding-top: 70px;
   width: 319px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .menu{
   float: right;
   margin-top: 77px;
-  margin-right: 3%;
-  
 }
 
 a{
@@ -24,7 +36,7 @@ a{
   font-weight: 500;
   font-size: 30px;
   line-height: 35px;
-  padding-left: 60px;
+  margin-left: 60px;
 }
 
 .active{
@@ -46,8 +58,13 @@ a{
 }
 
 .titlearea{
-  padding-left: 5%;
   float: left;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 h1{
@@ -60,7 +77,7 @@ h1{
 }
 
 h2{
-  
+  margin-top: 5px;
   font-weight: 500;
   font-size: 36px;
   line-height: 42px;
@@ -82,7 +99,6 @@ h2{
 
 .banner{
   float: right;
-  margin-right: 3%;
   margin-top: 75px;
 }
 
