@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #242527;
+}
+
+.logo{
+  float: left;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+
+
+.menu{
+  display: flex;
+  float: right;
+  margin-top: 55px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FBFCFF;
+}
+
+
+

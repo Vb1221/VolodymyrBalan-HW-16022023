@@ -1,176 +1,164 @@
 body{
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
-
-
 
 .top{
-  margin-top: 47px;
-  margin-bottom: 43px;
-  margin-right: 21%;
+  padding: 30px 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
 
 a{
   text-decoration: none;
 }
 
-.left{
-  margin-left: 21%;
-  margin-top: 18px;
-  height: 37px;
-  width: 37px;
-}
 
 .right{
-  margin-top: 18px;
   float: right;
-  margin-left: 21px;
-  height: 25px;
-  width: 25px;
-}
-
-
-  
-
-h1{
-  color: #8A6D2F;
-  padding-top: 102px;
-  font-size: 44px;
-  line-height: 54px;
-  font-weight: 400;
-}
-
-h2{
-  color: #8A6D2F;
-  font-size: 43px;
-  line-height: 54px;
-  font-weight: 400;
+  padding-top: 7px;
+  padding-right: 20px;
 }
 
 .topbody{
-  background-color:  #FAC960;
   text-align: center;
+  background-color: #FAC960;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+h1{
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 54px;
+  color: #8A6D2F;
+  margin-bottom: 0;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 54px;
+  color: #8A6D2F;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .emailvalue{
-  width: 560px;
-  height: 54px;
+  font-weight: 400;
   font-size: 30px;
   line-height: 54px;
+  border: none;
+  padding-left: 30px;
+  padding-right: 80px;
+  margin-right: 5px;
   color: #999999;
-  margin-bottom: 115px;
 }
 
 .buttoninp{
-  padding-left: 6px;
-  height: 56px;
-  width: 240px;
-  border: none;
-  font-size: 30px;
-  line-height: 54px;
-  text-align: center;
-  color: #fff;
   background: #A8863D;
+  padding: 1px 40px 1px 30px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 52px;
+  color: #FFFFFF;
 }
 
 .unspace{
   text-align: center;
-  background: #F2F2F2;
+  background-color: #F2F2F2;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 h3{
+  font-weight: 400;
   font-size: 37px;
   line-height: 36px;
   color: rgba(0, 0, 0, 0.56);
-  padding-top: 77px;
-  margin: 0%;
-  font-weight: 400;
 }
 
 p{
-  font-size: 23px;
+  font-weight: 400;
+  font-size: 26px;
   line-height: 30px;
   color: rgba(0, 0, 0, 0.4);
-  padding: 32px 311px;
-  margin: 0%;
-  font-weight: 400;
 }
 
 .icon{
-  padding-top: 24px;
-  padding-bottom: 81px;
-  width: 186px;
-  height: 96px;
+  padding-top: 40px;
+  padding-bottom: 21px;
 }
 
 .mobarea{
   text-align: center;
-  background: #fff;
-  
+  padding-top: 50px;
+  background-color: #FFF;
+  padding-bottom: 50px;
 }
 
 .phoneicon{
-  width: 190px;
-  height: 355px;
-  padding-top: 32px;
+  padding-top: 6px;
 }
 
 .referarea{
-  margin-top: 22px;
   text-align: center;
-  background-color:  #FAC960;
-  
+  padding-top: 40px;
+  padding-bottom: 60px;
+  background-color: #FAC960;
 }
 
 .referarea h3{
+  margin-top: 14px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 36px;
   color: #8A6D2F;
 }
 
 .referarea p{
+  margin-top: 16px;
+  font-weight: 400;
   font-size: 22px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .referarea input{
   width: 61px;
   height: 22px;
-  font-size: 17px;
-  line-height: 22px;
-  color: #999999;
   text-align: center;
   border-radius: 3px;
-  margin-bottom: 107px;
+  margin-top: 10px;
+  margin-bottom: 47px;
+  background: #FFFFFF;
+  border: 1px solid #758696;
 }
 
 .bot{
-  
-  text-align: center;
-  background-color: #F2F2F2;
-  border-radius: 0px;
-  padding-bottom: 80px;
+ text-align: center;
+ padding: 81px 0;
+ background-color: #F2F2F2;
 }
 
-.botlogo{
-  margin-top: 81px;
-  margin-bottom: 24px;
-  height: 37px;
+.botlogo img{
   width: 37px;
+  height: 37px;
+  margin-bottom: 12px;
 }
 
-.boticonb{
-  padding-left: 22px;
-  padding-right: 22px;
-  width: 17px;
+.boticon img{
+  display: inline-block;
+  width: auto;
   height: 17px;
-}
-
-.boticona{
-  width: 18px;
-  height: 15px;
-}
-
-.boticonc{
-  width: 17px;
-  height: 15px;
+  margin-top: 12px;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-bottom: 0;
 }
