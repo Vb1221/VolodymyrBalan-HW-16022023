@@ -4,25 +4,266 @@
 
 body{
   background: #242527;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
 }
+
+.clearfix{
+  margin-right: 2.7%;
+  margin-left: 2.7%;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 .logo{
-  float: left;
   margin-top: 40px;
-  margin-left: 40px;
+  float: left;
 }
 
-
-
+a{
+  text-decoration: none;
+  color: #FBFCFF;
+}
 .menu{
-  display: flex;
+  display: inline-flex;
   float: right;
-  margin-top: 55px;
+  margin-top: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+.mainmenu{
+  display: flex;
   font-weight: 300;
   font-size: 21px;
   line-height: 25px;
-  color: #FBFCFF;
+  margin: 0;
+  margin-top: 17px;
+  margin-right: 30px;
+}
+
+.mainmenu li{
+  padding-right: 51px;
+  list-style: none;
+  background-image: url(img/marker.svg);
+  background-position: 103px 7px;
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+
+.mainmenu li:nth-child(2){
+  background-position: 68px 7px;
+}
+.mainmenu li:nth-child(3){
+  background-position: 72px 7px;
+}
+.mainmenu li:nth-child(4){
+  background-position: 120px 7px;
+}
+.mainmenu li:nth-child(5){
+  background-position: 110px 7px;
+}
+
+.mainmenu li:last-child{
+  background-image: none;
+}
+
+.menubtn{
+  background: #242527;
+  border: 1px solid #E4F5FF;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  color: #E4F5FF;
+  padding: 14px 32px;
+  /* margin-top: 40px; */
 }
 
 
 
+/*  */
+
+.middle{
+  padding-top: 285px;
+  padding-bottom: 325px;
+  margin-left: 5.5%;
+  background-image: url(img/vector.png);
+  background-repeat: no-repeat;
+  background-position: 95% 30%;
+  
+}
+
+.middle::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.middle h1{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #E4F5FF;
+  background-image: url(img/marker1.png);
+  background-repeat: no-repeat;
+  background-position: 26% 55%;
+}
+
+.middle h2{
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 42px;
+  color: #E4F5FF;
+}
+
+.bottpart{
+  margin: 0 5% 5% 5.5%;
+}
+
+.botmenu{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  color: #E4F5FF;
+}
+.botmenu ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.botmenu li{
+  padding-left: 3%;
+  list-style-type: "//";
+}
+
+.botmenu li:first-child{
+ list-style-type: none;
+ padding: 0;
+}
+
+a:hover{
+  border-bottom: solid 1px white;
+}
+
+.container{
+  margin-top: 55px;
+  
+}
+
+.first{
+  display: flex;
+  justify-content: space-between;
+}
+
+.girl h3{
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: #E4F5FF;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.girl p{
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #E4F5FF;
+  margin-left: 15px;
+}
+.bg{
+  margin-left: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 0px 0px 16px 16px;
+  width: 84%;
+}
+
+.girl a{
+  margin: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #E4F5FF;
+  margin-left: 15px;
+}
+
+.girl{
+  padding-top: 210px;
+  background-repeat: no-repeat;
+  width: 17%;
+  height: auto;
+  background-size: 95%;
+  mix-blend-mode: luminosity;
+  filter: drop-shadow(0px 2px 10px rgba(228, 245, 255, 0.5));
+  border-radius: 66px;
+}
+
+.girl:last-child{
+  margin: 0;
+}
+
+.second{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.third{
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+.card1{
+  background-image: url(img/woman/1.png);
+}
+
+.card2{
+  background-image: url(img/woman/2.png);
+}
+
+.card3{
+  background-image: url(img/woman/3.png);
+}
+.card4{
+  background-image: url(img/woman/4.png);
+}
+
+.card5{
+  background-image: url(img/woman/5.png);
+}
+
+.card6{
+  background-image: url(img/woman/6.png);
+}
+.card7{
+  background-image: url(img/woman/7.png);
+}
+.card8{
+  background-image: url(img/woman/8.png);
+}
+.card9{
+  background-image: url(img/woman/9.png);
+}
+.card10{
+  background-image: url(img/woman/10.png);
+}
+.card11{
+  background-image: url(img/woman/11.png);
+}
+.card12{
+  background-image: url(img/woman/12.png);
+}
+.card13{
+  background-image: url(img/woman/13.png);
+}
+.card14{
+  background-image: url(img/woman/14.png);
+}
+.card15{
+  background-image: url(img/woman/15.png);
+}
