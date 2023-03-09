@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+}
+
+.top{
+  background: url(img/bgtop.png);
+}
+
+.topmenu{
+  padding: 66px 84px 50px 85px;
+  
+}
