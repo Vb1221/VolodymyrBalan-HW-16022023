@@ -1,0 +1,162 @@
+@media (max-width: 1100px){
+  h2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FFC178;
+    margin: 0;
+  }
+  
+  h3{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: capitalize;
+    margin: 0;
+  }
+  
+  h4{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 87px;
+    margin: 0;
+  }
+  
+  h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FBD784;
+    margin: 0;
+  }
+  
+  p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0;
+  }
+
+  .firstpart{
+   background-position: center;
+   padding: 26px 44px 10px 45px;
+   height: 1200px;
+  }
+
+  .qwery{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search_btn{
+    width: 120px;
+  }
+
+  .discover{
+    margin-left: 20%;
+  }
+
+  .scroll_down{
+    margin-left: 42%;
+    margin-top: 4em;
+  }
+
+  .leftbar{
+    width: 20%;
+    align-items: center;
+  }
+
+  .leftbar a{
+    margin: 0;
+  }
+
+  .second_part{
+    display: flex;
+    flex-direction: column;
+  }
+  .right_text{
+    margin-left: 7%;
+  }
+
+  .right_text h2{
+    position: relative;
+  }
+
+  .right_text h2::before{
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.third_part h2{
+  position: relative;
+  color: white;   /* змінив, бо зливається з фоном */
+}
+
+.third_part h2::before{
+  top: 50%;
+  left: -91%;
+}
+
+.third_part h2::after{
+  top: 50%;
+  left: 103%;
+}
+
+.forth_part{
+  flex-direction: column;
+}
+
+.left_text{
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.forth_part h2::before{
+  width: 50px;
+  right: 13%;
+}
+
+.upper_part{
+  flex-direction: column;
+}
+
+.upper_part h1{
+  margin-bottom: 1.5em;
+}
+
+.bottom_part{
+  flex-direction: column;
+}
+
+.email_block{
+  margin: 0 auto;
+  width: 100%;
+}
+
+br{
+  display: none;
+}
+
+.all_link{
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.colum:last-child{
+  margin-right: 3em;
+}
+
+.terms p{
+  margin-left: 0;
+  margin-right: 3em;
+}
+
+}
