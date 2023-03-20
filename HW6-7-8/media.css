@@ -41,13 +41,17 @@
 
   .firstpart{
    background-position: center;
-   padding: 26px 44px 10px 45px;
+   padding: 26px 34px 10px 35px;
    height: 1200px;
   }
 
   .qwery{
     flex-direction: column;
     align-items: center;
+  }
+
+  .mainmenu li{
+    padding-right: 25px;
   }
 
   .search_btn{
@@ -64,8 +68,9 @@
   }
 
   .leftbar{
-    width: 20%;
+    width: 17%;
     align-items: center;
+
   }
 
   .leftbar a{
@@ -159,4 +164,74 @@ br{
   margin-right: 3em;
 }
 
+}
+
+@media(max-width: 600px){
+  .discover{
+    margin-left: 25px;
+  }
+
+  h2{
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .leftbar{
+    width: 37%;
+    justify-content: normal;
+  }
+  .leftbar a{
+    margin-top: 30px;
+  }
+
+  .explore{
+    padding-left: 60px;
+  }
+
+  .explore::before{
+    width: 40px;
+  }
+
+  .right_text h2::before{
+    left: -3%;
+    width: 45px;
+  }
+
+  .right_text h5::after{
+    left: 26%;
+  }
+  h4{
+    font-size: 28px;
+  }
+
+  .forth_part h2::before{
+    right: 23%;
+  }
+
+  .forth_part h5::after{
+    left: 26%;
+  }
+
+  .bottom{
+    flex-direction: column;
+  }
+
+  .bottom_link{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom_link a{
+    margin: 0 auto;
+  }
+
+  .terms p{
+    margin-bottom: 3em;
+    margin-right: 1em;
+    margin-left: 2em;
+  }
+
+  .under_text{
+    margin-top: 2em;
+  }
 }
