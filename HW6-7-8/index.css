@@ -407,6 +407,7 @@ p{
   color: #000000;
   padding: 24px 70px;
   margin-left: 50px;
+  border: none;
 }
 
 hr{
@@ -436,6 +437,7 @@ hr{
 
 .email{
   display: flex;
+  border-bottom: 1px solid white;
 }
 
 .email input{
@@ -443,8 +445,11 @@ hr{
   height: 73px;
   background: #000;
   border: none;
-  border-bottom: 1px solid white;
   color: #FFFFFF;
+}
+
+.email input:focus{
+  outline: none;
 }
 
 .email_block button{
@@ -452,6 +457,8 @@ hr{
   background: #FFA343;
   color: #000000;
   border-radius: 8px 8px 0px 0px;
+  border: none;
+  margin-left: 11%;
 }
 
 .all_link{
